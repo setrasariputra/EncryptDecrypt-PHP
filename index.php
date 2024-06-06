@@ -6,8 +6,8 @@ $method = 'aes-256-cbc';
 
 echo "Plaintext: ".$plaintext. "<br />";
 
-// must be exact 64 chars (256 bit)
-$password = hash('sha256', $password);
+// must be exact 128 chars (512 bit)
+$password = hash('sha512', $password);
 echo "Password: ".$password. "<br />";
 
 // IV must be exact 16 chars (128 bit)
