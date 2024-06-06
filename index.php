@@ -1,7 +1,6 @@
 <?php
 
 $plaintext = 'My password Login';
-// $password = '3sc3RLrpd17';
 $password = '123456789#abcdefghijklmnopqrstuvwxyz';
 $method = 'aes-256-cbc';
 
