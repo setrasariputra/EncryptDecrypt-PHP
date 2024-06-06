@@ -7,7 +7,7 @@ $data = array(
         'access' => 'Full Access'
     ),
 );
-$plaintext = serialize($data);
+$plaintext = json_encode($data);
 $phrase = '123456789#abcdefghijklmnopqrstuvwxyz';
 $method = 'aes-256-cbc';
 
